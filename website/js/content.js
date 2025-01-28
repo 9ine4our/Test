@@ -1,6 +1,6 @@
 document.getElementById('content').innerHTML = `
 <header>
-    <h1>Halo Dunia!</h1>
+    <h1>Halo content!</h1>
 </header>
 <main>
     <p>Ini adalah halaman HTML dasar. Anda dapat mengeditnya sesuai kebutuhan.</p>
