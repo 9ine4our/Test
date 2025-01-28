@@ -41,4 +41,5 @@ document.getElementById('film').innerHTML = `
       <iframe id="modal-iframe" src="" scrolling="no" allowfullscreen="true" frameborder="0" width="100%" height="400"></iframe>
     </div>
   </div>
+  </body>
 `;
