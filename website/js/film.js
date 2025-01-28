@@ -1,4 +1,4 @@
-document.getElementById('content').innerHTML = `
+document.getElementById('film').innerHTML = `
 
 <html lang="en">
 <head>
