@@ -1,6 +1,6 @@
 document.body.innerHTML = `
 <header>
-    <h1>Halo Dunia!</h1>
+    <h1>Halo Index!</h1>
 </header>
 <main>
     <p>Ini adalah halaman HTML dasar. Anda dapat mengeditnya sesuai kebutuhan.</p>
