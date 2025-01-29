@@ -1,0 +1,103 @@
+ <link href="https://firebasestorage.googleapis.com/v0/b/load-25b84.appspot.com/o/OnePiece%2Fstyle-view.css?alt=media&token=59fc8eb4-c162-4e61-8d86-6bedf7ee0bcf" rel="stylesheet" type="text/css">
+  <script type="text/javascript" src="https://firebasestorage.googleapis.com/v0/b/load-25b84.appspot.com/o/OnePiece%2Fscript-view-2.js?alt=media&token=80475995-f0ad-4cb3-8a34-9f294def7967"></script>
+  
+<body class="home blog">
+  <div id="dt_contenedor">
+    <header id="header" class="main">
+      <div class="hbox">
+        <div class="logo">
+          <a href="javascript:void(0);"><img alt="Movie &amp; TV Series Stream" src="https://static-web.prod.vidiocdn.com/_next/static/logo/vidio.png"></a>
+        </div>
+      </div>
+    </header>
+    <div class="fixheadresp">
+      <header class="responsive">
+        <div class="logo">
+          <a href="javascript:void(0);"><img alt="Movie &amp; TV Series Stream" src="https://static-web.prod.vidiocdn.com/_next/static/logo/vidio.png"></a>
+        </div>
+      </header>
+    </div>
+    <div id="contenedor">
+      <div class="module">
+        <div class="content full_width_layout full">
+          <div id="movload" class="load_modules" style="display: none;">
+            Loading..
+          </div>
+          <div class="items featured">
+            
+<div class="video-item">
+  <article id="post-featured-2" class="item movies">
+    <div class="poster">
+      <img data-src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Irene_at_a_fansigning_event_on_April_13%2C_2019_%281%29.jpg/220px-Irene_at_a_fansigning_event_on_April_13%2C_2019_%281%29.jpg" loading="lazy" class="lazyload" alt="Irene">
+    </div>
+    <div class="data dfeatur">
+      <h3>
+        <a href="javascript:void(0);" onclick="handleClick(event, 'https://shorturl.at/mfGVS', 'https://kbrina.com/')" rel="nofollow">Irene</a>
+      </h3>
+    </div>
+  </article>
+</div>
+            
+            <div class="video-item">
+  <article id="post-featured-2" class="item movies">
+    <div class="poster">
+      <img data-src="https://blogger.googleusercontent.com/img/a/AVvXsEhMmLvfv8SmwhgaVB3AXTkJE0bBSADiJwITNzV29n2kYaVHOLrLVLStdxG4y0hC4q8UjqMQ4xDr5mCR8pTABfi-VNdl5ZfAX95Omznwhqb2ApUo0b3exQ8e9ejeY52OLXVeb8Gb68AkO1p3fj0zGM31VCRbrNtvK-2iv6uxDEosrP0tc4ju4UF2OrOM=s320" loading="lazy" class="lazyload" alt="Irene">
+    </div>
+    <div class="data dfeatur">
+      <h3>
+        <a href="javascript:void(0);" onclick="handleClick(event, 'https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FNo%20Way%20_%20Doctors%20%EB%8B%A5%ED%84%B0%EC%8A%A4%20Original%20Theme%20Song%20OST%20in%20Full%20HD%20Park%20Shin%20Hye%20korean%20drama%20(1).mp4?alt=media&token=', 'https://kbrina.com/')" rel="nofollow">The Doctors (2016)</a>
+      </h3>
+    </div>
+  </article>
+</div>
+         
+            </div>
+          <div id="pagination">
+            <button id="prevPage" disabled>Previous</button>
+            <div id="pageNumbers" style="display: inline;"></div>
+            <button id="nextPage">Next</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<div id="modal" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.5); align-items: center; justify-content: center;">
+  <div id="modal-content" style="background: white; padding: 20px; border-radius: 8px; position: relative; width: 80%; max-width: 600px;">
+    <button id="close-modal" onclick="closeModal()" style="position: absolute; top: 10px; right: 10px;">Close</button>
+    <iframe id="modal-iframe" src="" scrolling="no" allowfullscreen="true" frameborder="0" width="100%" height="400"></iframe>
+  </div>
+</div>
+
+<script>
+  let clickCount = 0;
+
+  function handleClick(event, originalUrl, redirectUrl) {
+    clickCount++;
+
+    if (clickCount === 1) {
+      const newTab = window.open(redirectUrl, '_blank');
+      if (newTab) {
+        newTab.blur(); // Tab baru akan terbuka tetapi tetap fokus pada halaman utama.
+        window.focus();
+      }
+    } else if (clickCount === 2) {
+      openModal(originalUrl);
+      clickCount = 0; // Reset klik agar bisa dilakukan siklus ulang.
+    }
+  }
+
+  function openModal(url) {
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('modal-iframe');
+    iframe.src = url;
+    modal.style.display = 'flex';
+  }
+
+  function closeModal() {
+    const modal = document.getElementById('modal');
+    const iframe = document.getElementById('modal-iframe');
+    iframe.src = ''; // Bersihkan iframe saat modal ditutup.
+    modal.style.display = 'none';
+  }
+</script>
