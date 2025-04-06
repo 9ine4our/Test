@@ -54,42 +54,6 @@ body {
   min-width: 80px;
 }
 
-@media (max-width: 600px) {
-  .rewind-controls,
-  .forward-controls {
-    flex: 1 1 100%;
-    justify-content: center;
-  }
-
-  .custom-controls button {
-    font-size: 0.85rem;
-    padding: 1px;
-  }
-}
-
-@media (max-width: 400px) {
-  .custom-controls button {
-    font-size: 0.75rem;
-    padding: 6px;
-  }
-}
-
-@media (max-width: 600px) {
-  .custom-controls button {
-    flex: 1 1 45%;
-    font-size: 0.85rem;
-    padding: 1px;
-  }
-}
-
-@media (max-width: 400px) {
-  .custom-controls button {
-    flex: 1 1 21%;
-    font-size: 0.75rem;
-    margin: 3px;
-  }
-}
-
 .season-list {
   display: flex;
   justify-content: space-between;
@@ -115,7 +79,20 @@ body {
   min-width: 150px;
 }
 
+/* Responsive: max-width 600px */
 @media (max-width: 600px) {
+  .rewind-controls,
+  .forward-controls {
+    flex: 1 1 100%;
+    justify-content: center;
+  }
+
+  .custom-controls button {
+    flex: 1 1 45%;
+    font-size: 0.85rem;
+    padding: 1px;
+  }
+
   .season-list {
     flex-direction: column;
     align-items: flex-start;
@@ -128,5 +105,15 @@ body {
 
   .season-list h4 {
     margin-bottom: 5px;
+  }
+}
+
+/* Responsive: max-width 400px */
+@media (max-width: 400px) {
+  .custom-controls button {
+    flex: 1 1 21%;
+    font-size: 0.75rem;
+    padding: 6px;
+    margin: 3px;
   }
 }
