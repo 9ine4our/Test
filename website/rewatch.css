@@ -1,0 +1,48 @@
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .season-list {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    .season-list h4 {
+      margin: 0;
+    }
+    .custom-controls {
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
+    }
+    .custom-controls button {
+      margin: 0 5px;
+      padding: 5px 10px;
+      cursor: pointer;
+    }
+    .playlist-dropdown {
+      text-align: right;
+    }
+    .form-container {
+      margin-top: 30px;
+      background-color: #f1f1f1;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .form-container input, .form-container button {
+      padding: 10px;
+      margin: 5px 0;
+      width: 100%;
+    }
+
+    #video-player {
+      width: 100%;
+      height: 450px;
+      object-fit: contain;
+    }
