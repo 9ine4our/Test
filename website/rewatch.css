@@ -45,6 +45,7 @@ body {
 
 .custom-controls button {
   padding: 1px;
+  margin: 2 3px;
   font-size: 1rem;
   cursor: pointer;
   border: 1px solid #ccc;
@@ -117,9 +118,3 @@ body {
     margin: 3px;
   }
 }
-
-.custom-controls button {
-    margin: 2 3px;
-    padding: 2px 1px;
-    cursor: pointer;
-    }
