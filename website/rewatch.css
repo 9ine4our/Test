@@ -36,6 +36,8 @@ body {
 
 .rewind-controls,
 .forward-controls {
+    margin: 2 3px;
+
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
