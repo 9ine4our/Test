@@ -1,4 +1,4 @@
-    const data = [
+    const videoDataArray = [
       {
         title: "Kung Fu Hustle (2004)",
         img: "https://image.tmdb.org/t/p/w500/exbyTbrvRUDKN2mcNEuVor4VFQW.jpg",
