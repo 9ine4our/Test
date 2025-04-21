@@ -9848,3 +9848,18 @@
         padding: 5px 10px;
       }
     }
+
+.data.dfeatur h3 a {
+      white-space: normal;
+      overflow: visible;
+      text-overflow: clip;
+      display: inline-block;
+    }
+    .additional-urls a {
+      color: #3498db;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .additional-urls a:hover {
+      text-decoration: underline;
+    }
