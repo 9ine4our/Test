@@ -10,7 +10,7 @@
         url: "https://woneart-bot.github.io/movies/media-player.html?url=https%3A%2F%2Fshort.icu%2F8XM2eWSrn"
       },
       {
-        nama: "Ratatouille(2007),
+        nama: "Ratatouille(2007)",
         img: "https://image.tmdb.org/t/p/w500/t3vaWRPSf6WjDSamIkKDs1iQWna.jpg",
         url: "https://woneart-bot.github.io/movies/media-player.html?url=https%3A%2F%2Fshort.icu%2FJXL_63CwR"
       }
