@@ -1,4 +1,4 @@
-import { videoDataArray } from '.data.js';
+import { videoDataArray } from 'https://raw.githack.com/9ine4our/Test/refs/heads/main/test/data.js';
 
     function handleClick(event, originalUrl) {
       openModal(originalUrl);
