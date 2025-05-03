@@ -1,6 +1,5 @@
-// fetch('data/films2.json')
 fetch(
-  'https://rawcdn.githack.com/9ine4our/Test/refs/heads/main/test/film/data/film.json'
+  'https://rawcdn.githack.com/9ine4our/Test/refs/heads/main/test/film/film.json'
 )
   .then((response) => response.json())
   .then((data) => {
