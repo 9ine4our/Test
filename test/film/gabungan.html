@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Filmku</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="player.css" />
+  <link href="https://cdn.plyr.io/3.5.6/plyr.css" rel="stylesheet" />
+
+  <!-- JS -->
+  <script src="https://cdn.plyr.io/3.5.6/plyr.js"></script>
+  <script src="script.js" defer></script>
+  <script src="player.js" defer></script>
+</head>
+<body>
+
+  <!-- Daftar Drama & Movie -->
+  <div id="content-wrap">
+    <div class="title">Drama</div>
+    <div class="menu" id="drama-list"></div>
+
+    <div class="title">Movies</div>
+    <div class="menu" id="movie-list"></div>
+  </div>
+
+  <!-- Player - Tersembunyi di Awal -->
+  <div id="player-container" style="display: none;">
+    <div class="season-list">
+      <h4 id="judul">Memuat...</h4>
+      <div class="playlist-dropdown">
+        <select id="playlist-select">
+          <option disabled selected>Pilih Episode</option>
+        </select>
+      </div>
+    </div>
+
+    <video class="js-player" controls playsinline poster="" webkit-playsinline>
+      <source src="" type="video/mp4" />
+    </video>
+
+    <div class="custom-controls">
+      <div class="rewind-group">
+        <button id="rewind-30">-30s</button>
+        <button id="rewind-3">-3</button>
+        <button id="rewind-5">-5</button>
+        <button id="rewind-10">-10</button>
+      </div>
+      <div class="forward-group">
+        <button id="forward-30">+30s</button>
+        <button id="forward-3">+3</button>
+        <button id="forward-5">+5</button>
+        <button id="forward-10">+10</button>
+      </div>
+    </div>
+  </div>
+
+  <style>
+    #player-container {
+  margin-top: 30px;
+  border-top: 2px solid #ccc;
+  padding-top: 20px;
+}
+  </style>
+
+</body>
+</html>
