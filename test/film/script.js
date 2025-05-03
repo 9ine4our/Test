@@ -3,7 +3,7 @@
   "https://rawcdn.githack.com/9ine4our/Test/refs/heads/main/test/film/data/film.json"
 )
 fetch(
-  "https://raw.githubusercontent.com/9ine4our/Test/refs/heads/main/test/film.json"
+  "https://rawcdn.githack.com/9ine4our/Test/refs/heads/main/test/film/data/film.json"
 )
   .then((response) => response.json())
   .then((data) => {
