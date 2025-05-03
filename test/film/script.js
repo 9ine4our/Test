@@ -1,5 +1,3 @@
-// fetch('data/films2.json')
-
 fetch(
   'https://rawcdn.githack.com/9ine4our/Test/refs/heads/main/test/film/data/film.json'
 )
