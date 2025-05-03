@@ -1,0 +1,62 @@
+{
+  "dramas": [
+    {
+      "title": "The Doctors (2016)",
+      "slug": "the-doctors",
+      "poster": "https://blogger.googleusercontent.com/img/a/AVvXsEhMmLvfv8SmwhgaVB3AXTkJE0bBSADiJwITNzV29n2kYaVHOLrLVLStdxG4y0hC4q8UjqMQ4xDr5mCR8pTABfi-VNdl5ZfAX95Omznwhqb2ApUo0b3exQ8e9ejeY52OLXVeb8Gb68AkO1p3fj0zGM31VCRbrNtvK-2iv6uxDEosrP0tc4ju4UF2OrOM=s320",
+      "image": "https://thumbor.prod.vidiocdn.com/KdCLJ13cxTIEUnQ4ITHGYYxAXRc=/960x540/filters:quality(75)/vidio-media-production/uploads/image/source/4476/6c772c.jpg",
+      "episodes": [
+        { "label": "Episode 1", "url": "https://example.com/ep1.mp4" },
+        { "label": "Episode 2", "url": "https://example.com/ep2.mp4" },
+        { "label": "Episode 3", "url": "https://example.com/ep3.mp4" }
+      ]
+    },
+    {
+      "title": "The K2 (2016)",
+      "slug": "the-k2",
+      "poster": "https://blogger.googleusercontent.com/img/a/AVvXsEhz7RrHdHVTn44qx5g1jMo27WSHZmJceESLM6FHq-YWhr6csZ_fjeNd4WLKSUQgZjPeHIQ3lm_NYhePhksIsfnMUDA8qKG8Dr-6TjOY6Y53BQxjgYq6AhFkmozs8IvsZxcd9fGfRDy1D7D1gInSPO0rmz1mfLuC3Nb_ooS1q2GXw9G0BHYPY0jIs2cl=s320",
+      "image": "https://thumbor.prod.vidiocdn.com/U5wWX1Hqc5l4XuRkinHbHTsvC04=/960x540/filters:quality(75)/vidio-web-prod-film/uploads/film/image_landscape/39/the-k2-b68bf0.jpg",
+      "episodes": [
+        { "label": "Episode 1", "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20The%20k2%20season%201%20episode%201%202016%20mp4.mp4?alt=media&token=" },
+        { "label": "Episode 2", "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20The%20k2%20season%201%20episode%202%202016%20mp4.mp4?alt=media&token=" },
+        { "label": "Episode 3", "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20The%20k2%20season%201%20episode%203%202016%20mp4.mp4?alt=media&token=" },
+        { "label": "Episode 4", "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20The%20k2%20season%201%20episode%204%202016%20mp4.mp4?alt=media&token=" },
+        { "label": "Episode 5", "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20The%20k2%20season%201%20episode%205%202016%20mp4.mp4?alt=media&token=" },
+        { "label": "Episode 6", "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20The%20k2%20season%201%20episode%206%202016%20mp4.mp4?alt=media&token=" },
+        { "label": "Episode 7", "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20The%20k2%20season%201%20episode%207%202016%20mp4.mp4?alt=media&token=" },
+        { "label": "Episode 8", "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20The%20k2%20season%201%20episode%208%202016%20mp4.mp4?alt=media&token=" },
+        { "label": "Episode 9", "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20The%20k2%20season%201%20episode%209%202016%20mp4.mp4?alt=media&token=" },
+        { "label": "Episode 10", "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20The%20k2%20season%201%20episode%2010%202016%20mp4.mp4?alt=media&token=" },
+        { "label": "Episode 11", "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20The%20k2%20season%201%20episode%2011%202016%20mp4.mp4?alt=media&token=" },
+        { "label": "Episode 12", "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20The%20k2%20season%201%20episode%2012%202016%20mp4.mp4?alt=media&token=" },
+        { "label": "Episode 13", "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20The%20k2%20season%201%20episode%2013%202016%20mp4.mp4?alt=media&token=" },
+        { "label": "Episode 14", "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20The%20k2%20season%201%20episode%2014%202016%20mp4.mp4?alt=media&token=" },
+        { "label": "Episode 15", "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20The%20k2%20season%201%20episode%2015%202016%20mp4.mp4?alt=media&token=" },
+        { "label": "Episode 16", "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20The%20k2%20season%201%20episode%2016%202016%20mp4.mp4?alt=media&token=" }
+      ]
+    }
+  ],
+  "movies": [
+    {
+      "title": "The Flu (2013)",
+      "slug": "the-flu",
+      "poster": "https://blogger.googleusercontent.com/img/a/AVvXsEjsqZle7bjW-OIXVZ3QOjz8UbqVjoAU_HkiGcK_sITlKIH_I_SVnm82lNrg5yld8vhuBYWbj7hcioGMhx3ffWKAxvNzeqLi9ZhK_HJ2FF16FFTJvZtYscASwTXUdJOllFY_XDSI84LbANfhxpepcnfXOJvY4wL-EYRlSU0T3RewQWDvrqCN7RgqDJN1",
+      "image": "https://dkfhw9rzsr80z.cloudfront.net/TVN-ID-001-A1035/artworks/posters/TVN-ID-001-A1035-P704.jpg?hash=1604367408000",
+      "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2Fflu%202013%20mp4.mp4?alt=media&token="
+    },
+    {
+      "title": "Kung Fu Hustle (2004)",
+      "slug": "kung-fu-hustle",
+      "poster": "https://image.tmdb.org/t/p/w500/exbyTbrvRUDKN2mcNEuVor4VFQW.jpg",
+      "image": "https://thumbor.prod.vidiocdn.com/8QSJxkDzeTsey3esZoaloy3VxWE=/785x440/filters:quality(70)/vidio-web-prod-video/uploads/video/image/7448477/kung-fu-hustle-d7a214.jpg",
+      "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20Kung%20fu%20hustle%202004%20mp4.mp4?alt=media&token="
+    },
+    {
+      "title": "Shaolin Soccer (2001)",
+      "slug": "shaolin-soccer",
+      "poster": "https://image.tmdb.org/t/p/w500/kVpq68NxChzynK7otaymRSaWR8p.jpg",
+      "image": "https://about.vidio.com/wp-content/uploads/2022/07/SVOD-Shaolin-Soccer-Alt-A-Thumbnail.jpg",
+      "url": "https://firebasestorage.googleapis.com/v0/b/bangden-com.appspot.com/o/upload%2FD21%20FUN%20Shaolin%20soccer%202001%20mp4.mp4?alt=media&token="
+    }
+  ]
+}
