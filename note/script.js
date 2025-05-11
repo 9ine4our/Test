@@ -1,6 +1,3 @@
-const firebaseConfig = {
-  databaseURL: "https://bangden-com-default-rtdb.firebaseio.com",
-};
 
 firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
