@@ -1,3 +1,4 @@
+firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
 
 let currentEditKey = null;
