@@ -20,7 +20,7 @@ function addWebsite() {
     return;
   }
 
-  database.ref('notepad2').push({ url })
+  database.ref('notepad1').push({ url })
     .then(() => {
       urlInput.value = '';
       showNotification('Website added successfully!', 'success');
@@ -37,7 +37,7 @@ function editUrl(key, website) {
 document.getElementById('saveEditButton').addEventListener('click', () => {
   const url = document.getElementById('editUrl').value;
   if (url) {
-    database.ref('/notepad2/' + currentEditKey).update({ url })
+    database.ref('/notepad1/' + currentEditKey).update({ url })
       .then(() => {
         $('#editModal').modal('hide');
         showNotification('Website updated successfully!', 'success');
@@ -56,7 +56,7 @@ function deleteUrl(key, row) {
 
 document.getElementById('confirmDelete').addEventListener('click', () => {
   if (deleteKey) {
-    database.ref(`/notepad2/${deleteKey}`).remove()
+    database.ref(`/notepad1/${deleteKey}`).remove()
       .then(() => {
         if (deleteRow) deleteRow.remove();
         showNotification('Website deleted successfully!', 'success');
@@ -74,7 +74,7 @@ document.addEventListener("keydown", (event) => {
   }
 });
 
-database.ref('/notepad2').on('child_added', (snapshot) => {
+database.ref('/notepad1').on('child_added', (snapshot) => {
   const website = snapshot.val();
   const newRow = createTableRow(snapshot.key, website);
   websiteTableBody.prepend(newRow);
